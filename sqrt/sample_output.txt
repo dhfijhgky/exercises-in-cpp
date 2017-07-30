@@ -1,0 +1,19 @@
+Please enter a positive integer: 234576
+With our initial guess, we found the square root in 4 operations.
+Without it, it took 13 operations.
+The square root of 234576 is roughly 484.33.
+
+Please enter a positive integer: 54
+With our initial guess, we found the square root in 3 operations.
+Without it, it took 6 operations.
+The square root of 54 is roughly 7.34847.
+
+Please enter a positive integer: 48523
+With our initial guess, we found the square root in 3 operations.
+Without it, it took 11 operations.
+The square root of 48523 is roughly 220.279.
+
+Please enter a positive integer: 48523231
+With our initial guess, we found the square root in 4 operations.
+Without it, it took 17 operations.
+The square root of 48523231 is roughly 6965.86.
