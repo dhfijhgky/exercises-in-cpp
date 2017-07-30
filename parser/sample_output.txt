@@ -1,0 +1,14 @@
+Enter your equation: 10 + 2
+12
+
+Enter your equation: sqrt(PI + 24)
+5.20976
+
+Enter your equation: (sin(banana+7(42))
+Unknown function: banana
+Try again?
+Enter your equation: sin(100+7(42))
+.559193
+
+Enter your equation: -45+9*5/3(16/-4+7)
+-40
