@@ -13,7 +13,6 @@
 #define E 2.71828182845
 
 // Default constructor
-// This should probably never happen.
 Parser::Parser() {
 	str = "";
 	failure = false;
@@ -26,6 +25,16 @@ Parser::Parser(std::string _str) {
 	str = _str;
 	failure = false;
 	pos = ch = -1;
+}
+
+// Sets str
+void Parser::set_string(std::string _str) {
+	str = _str;
+}
+
+// Returns str
+std::string Parser::get_string() {
+	return str;
 }
 
 // Begins the parsing process, then returns the result.
