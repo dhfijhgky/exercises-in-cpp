@@ -50,6 +50,8 @@ double sqrt(int num) {
 	int temp = num;
 	int x = 0;
 	for (;temp > 100; temp = truncate(temp, 2)) {
+		// We truncate by 2 every step, not 1.
+		// Our conditional is x = a * 10^(2n), not x = a * 10^n.
 		x++;
 	}
 
